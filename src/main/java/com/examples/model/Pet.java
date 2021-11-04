@@ -1,8 +1,9 @@
 package com.examples.model;
 
+import java.io.Serializable;
 import java.util.List;
 
-public class Pet {
+public class Pet implements Serializable {
     private long id;
     private Category category;
     private String name;
